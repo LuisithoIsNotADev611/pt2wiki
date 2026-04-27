@@ -2,12 +2,12 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
 	lastUpdated: true,
-	base: '/wiki/',
+	base: '/docs/',
 	title: 'Piano Tiles 2 Wiki',
 	description:
 		"Welcome to the Piano Tiles 2 Wiki! Here, you'll find information about the game itself, as well as resources for modding.",
 	head: [
-		['link', { rel: 'icon', type: 'image/png', href: '/wiki/pianotiles2-logo-mini.png' }],
+		['link', { rel: 'icon', type: 'image/png', href: '/docs/pianotiles2-logo-mini.png' }],
 		['meta', { name: 'theme-color', content: '#52d5f2' }],
 		[
 			'meta',
